@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remobile/react-native-call-state.git"
+    "url": "git+https://github.com/mybadge/react-native-call-state.git"
   },
   "keywords": [
     "phone",
@@ -23,7 +23,7 @@
   "author": "honggao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/remobile/react-native-call-state/issues"
+    "url": "https://github.com/mybadge/react-native-call-state/issues"
   },
-  "homepage": "https://github.com/remobile/react-native-call-state#readme"
+  "homepage": "https://github.com/mybadge/react-native-call-state#readme"
 }
