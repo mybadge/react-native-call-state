@@ -44,8 +44,10 @@ public class CallStateModule
     @ReactMethod
     public void stopListener() {
         Log.i("----------------","stopListener");
-        telephonyManager.listen(callPhoneStateListener,CallPhoneStateListener.LISTEN_NONE);
-        telephonyManager = null;
+        if (telephonyManager != null) {
+            telephonyManager.listen(callPhoneStateListener,CallPhoneStateListener.LISTEN_NONE);
+            telephonyManager = null;
+        }
         callPhoneStateListener = null;
     }
 
